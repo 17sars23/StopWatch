@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		961E849A202AD63400857B21 /* erai.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 961E8499202AD63400857B21 /* erai.jpg */; };
 		96DA8E10202852C3001610C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DA8E0F202852C3001610C3 /* AppDelegate.swift */; };
 		96DA8E12202852C3001610C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DA8E11202852C3001610C3 /* ViewController.swift */; };
 		96DA8E15202852C3001610C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96DA8E13202852C3001610C3 /* Main.storyboard */; };
@@ -14,7 +15,6 @@
 		96DA8E1A202852C3001610C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96DA8E18202852C3001610C3 /* LaunchScreen.storyboard */; };
 		96DA8E25202852C3001610C3 /* StopWatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DA8E24202852C3001610C3 /* StopWatchTests.swift */; };
 		96DA8E30202852C3001610C3 /* StopWatchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DA8E2F202852C3001610C3 /* StopWatchUITests.swift */; };
-		96DA8E3E20285964001610C3 /* erai.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96DA8E3D20285964001610C3 /* erai.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		961E8499202AD63400857B21 /* erai.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = erai.jpg; sourceTree = SOURCE_ROOT; };
 		96DA8E0C202852C3001610C3 /* StopWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StopWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96DA8E0F202852C3001610C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96DA8E11202852C3001610C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +49,6 @@
 		96DA8E2B202852C3001610C3 /* StopWatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StopWatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96DA8E2F202852C3001610C3 /* StopWatchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatchUITests.swift; sourceTree = "<group>"; };
 		96DA8E31202852C3001610C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		96DA8E3D20285964001610C3 /* erai.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = erai.jpg; path = ../../erai.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +99,8 @@
 		96DA8E0E202852C3001610C3 /* StopWatch */ = {
 			isa = PBXGroup;
 			children = (
-				96DA8E3D20285964001610C3 /* erai.jpg */,
 				96DA8E0F202852C3001610C3 /* AppDelegate.swift */,
+				961E8499202AD63400857B21 /* erai.jpg */,
 				96DA8E11202852C3001610C3 /* ViewController.swift */,
 				96DA8E13202852C3001610C3 /* Main.storyboard */,
 				96DA8E16202852C3001610C3 /* Assets.xcassets */,
@@ -235,7 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96DA8E3E20285964001610C3 /* erai.jpg in Resources */,
+				961E849A202AD63400857B21 /* erai.jpg in Resources */,
 				96DA8E1A202852C3001610C3 /* LaunchScreen.storyboard in Resources */,
 				96DA8E17202852C3001610C3 /* Assets.xcassets in Resources */,
 				96DA8E15202852C3001610C3 /* Main.storyboard in Resources */,

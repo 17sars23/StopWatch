@@ -21,6 +21,10 @@ class ViewController: UIViewController {
     var ten:Float = 10.0
     var timer:Timer = Timer()
     
+    
+    //-----------------------------------------
+    // Setting function
+    //-----------------------------------------
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -32,9 +36,8 @@ class ViewController: UIViewController {
     }
     
     //-----------------------------------------
-    // Setting function
+    // Setting original function
     //-----------------------------------------
-
     @objc func up(){
         count += 0.01
         label.text = String(format:"%.2f", count)

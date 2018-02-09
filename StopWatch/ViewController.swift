@@ -44,8 +44,8 @@ class ViewController: UIViewController {
     }
     
     //judgement
-    func judge(){
-        differ = ten - count
+    func judge(num:Float){
+        differ = num - count
         
         if -0.2 <= differ && differ <= 0.2{
             label_p.text = "PERFECT!"
@@ -76,7 +76,7 @@ class ViewController: UIViewController {
         if timer.isValid{
             timer.invalidate() //invalidate:無効にする
         }
-        self.judge()
+        self.judge(num:10.0)
     }
     
     //Reset
